@@ -10,7 +10,7 @@ def main():
         print("Adresse IP invalide")
         return
 
-    ports = input("Entrer la plage de ports (ex: 20-100) : 
+    ports = input("Entrer la plage de ports (ex: 20-100) :
     try:
         debut, fin = parse_ports(ports)
     except:
